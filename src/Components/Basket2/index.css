@@ -1,0 +1,31 @@
+.cardImg{
+    width: 200px;
+    min-height: 200px;
+}
+img{
+    max-width: 100%;
+}
+.cardNormal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basketContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
