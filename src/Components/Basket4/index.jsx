@@ -7,7 +7,7 @@ function Basket4() {
   const [basket, setBasket] = UseLocalStorage("basket");
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [heartFilledItems, setHeartFilledItems] = useState([])
+  const [heartFilledItems, setHeartFilledItems] = UseLocalStorage()
   const [wishlist, setWishlist] = UseLocalStorage("wishlist")
   
   function toggleHeart(item) {
